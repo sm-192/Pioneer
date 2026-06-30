@@ -1,8 +1,8 @@
-# Pioneer Decisions Log
+# Pioneer Decisions
 
 ## D001
 
-Project Name
+Project name
 
 Pioneer
 
@@ -10,7 +10,7 @@ Pioneer
 
 ## D002
 
-Official Subtitle
+Official subtitle
 
 Open Astrophotography Workspace
 
@@ -18,7 +18,7 @@ Open Astrophotography Workspace
 
 ## D003
 
-Primary Backend
+Primary backend
 
 INDI
 
@@ -26,52 +26,40 @@ INDI
 
 ## D004
 
-Project Scope
-
-Create a modern mobile interface for INDI-based astrophotography systems.
-
-The project does not replace INDI drivers.
+Pioneer does not replace INDI.
 
 ---
 
 ## D005
 
-Primary Target
-
-Smartphones
+The application is Mobile First.
 
 ---
 
 ## D006
 
-Main Competitor
-
-Remote desktop workflows (VNC).
+The application is Session Oriented.
 
 ---
 
 ## D007
 
-The image is always the center of the experience.
+The captured image is always the center of the experience.
 
 ---
 
 ## D008
 
-The application is session-oriented.
-
-Not device-oriented.
+The Home Workspace is the heart of Pioneer.
 
 ---
 
 ## D009
 
-The Home Workspace is the most important screen of the application.
+Adaptive layouts will be preferred over simple responsive layouts.
 
 ---
 
 ## D010
 
-Responsive layouts are not enough.
-
-Pioneer will use adaptive layouts.
+The primary competitor is the remote desktop workflow (VNC), not INDI itself.

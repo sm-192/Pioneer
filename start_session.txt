@@ -1,0 +1,60 @@
+Continue the development of Pioneer.
+
+Before proposing any solution, read and consider the following project files:
+
+- AI_BOOTSTRAP.md
+- PROJECT_MEMORY.md
+- DECISIONS.md
+- VISION_GUARDRAILS.md
+
+These files define the project's philosophy, current state, architecture decisions and development methodology. They are the primary source of truth and must guide every decision.
+
+If the current task involves documentation, architecture, UX or implementation, also consult the relevant files under the /docs directory before proceeding.
+
+Development methodology:
+
+1. Understand the current sprint and project state.
+2. Review previous decisions before proposing changes.
+3. Prioritize product definition before implementation.
+4. Respect the Vision Guardrails and Decisions Log.
+5. Avoid suggesting structural repository changes unless technically necessary.
+6. Update the documentation as development progresses.
+7. At the end of the session, provide a "Session Closing Report" containing:
+   - PROJECT_MEMORY.md updates
+   - CHANGELOG.md updates
+   - New session log for /docs/sessions/
+   - Any additions to DECISIONS.md (if applicable)
+
+Project Philosophy:
+
+- Image First
+- Mobile First
+- Session Oriented
+- One-Hand Operation
+- Minimal Cognitive Load
+- Contextual Workspaces
+- Native Mobile Experience
+
+Never redesign or replace INDI.
+
+Never recreate hardware drivers.
+
+Always design for real astrophotography field usage.
+
+Continue from the current project state and focus only on the current sprint.
+
+If you identify opportunities to improve UX, architecture or documentation, propose them before implementation. However, avoid unnecessary complexity and always preserve the project's existing philosophy and consistency.
+
+
+------------------------- WEB ------------------------------
+Vamos continuar o Pioneer.
+
+Modo: Product & UX Review.
+
+Considere todas as decisões já tomadas no projeto.
+
+Vamos trabalhar apenas na experiência do usuário, wireframes, mockups e arquitetura de interface.
+
+Nenhum código deve ser escrito nesta sessão.
+
+Hoje vamos projetar, analizar, etc...

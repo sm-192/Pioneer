@@ -1,39 +1,81 @@
 # Pioneer Project Memory
 
-Current Sprint:
+## Current Sprint
 
 Sprint 0 — Foundation
 
 ---
 
-Completed
+## Current Status
+
+The repository structure has been defined.
+
+The project documentation is being created before implementation.
+
+No production code has been written yet.
+
+---
+
+## Completed
 
 - Project name defined
-- Project subtitle defined
-- Initial architecture discussion
-- Product philosophy discussion
+- Subtitle defined
 - Repository structure created
+- Product philosophy established
+- Development methodology defined
 
 ---
 
-In Progress
+## Current Focus
 
-- Product documentation
-- Vision definition
-- UX foundations
+Building the project foundation and documentation.
 
 ---
 
-Next Steps
+## Active Documents
 
-1. Finalize foundational documents
-2. Create README
-3. Write Manifesto
-4. Define Product Vision
-5. Design Home Workspace concepts
+Current:
+
+README.md
+
+Next:
+
+docs/manifesto/01_manifesto.md
 
 ---
 
-Current Focus
+## Next Session
 
-Designing the foundation of Pioneer before implementation.
+1. Finalize README
+2. Write Manifesto
+3. Create Product Vision
+
+---
+
+## Long-Term Roadmap
+
+Foundation
+
+↓
+
+UX
+
+↓
+
+Architecture
+
+↓
+
+Wireframes
+
+↓
+
+Flutter
+
+↓
+
+INDI Integration
+
+↓
+
+Beta

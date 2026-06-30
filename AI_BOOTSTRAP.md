@@ -1,63 +1,147 @@
-# Pioneer AI Context
+# Pioneer AI Bootstrap
 
 ## Project
 
-Pioneer
+**Pioneer**
 
-Subtitle:
+**Subtitle**
 
 Open Astrophotography Workspace
 
 ---
 
-## Mission
+# Purpose
 
-Create the best mobile-first astrophotography workspace for INDI-based observatories.
+Pioneer is an open-source mobile-first application designed to provide the best possible user experience for controlling INDI-based astrophotography systems.
 
----
+The project builds a modern interface on top of existing backends such as INDI, Astroberry and Ekos.
 
-## Current Phase
+Pioneer is **not** intended to replace hardware drivers, INDI or capture engines.
 
-Product Definition
-
----
-
-## Product Philosophy
-
-- Image first
-- Mobile first
-- Session oriented
-- One-hand operation
-- Minimal cognitive load
-- Contextual workspaces
+Its purpose is to simplify and modernize the user experience.
 
 ---
 
-## Known User Workflow
+# Project Philosophy
 
-Current workflow:
+Every proposal must respect these principles:
 
-1. Connect equipment
-2. Polar alignment
-3. GoTo target
-4. Focus
-5. Start capture
-6. Monitor session
-7. Park mount
+- Image First
+- Mobile First
+- Session Oriented
+- One-Hand Operation
+- Minimal Cognitive Load
+- Contextual Workspaces
+- Native Mobile Experience
 
 ---
 
-## Current Priorities
+# Development Philosophy
 
-1. Product Identity
-2. Home Workspace
-3. UX Architecture
+Implementation never comes before product definition.
+
+The expected order is:
+
+1. Product Vision
+2. UX
+3. Architecture
 4. Design System
+5. Wireframes
+6. Implementation
+7. Testing
 
 ---
 
-## Notes
+# Repository
 
-Main pain point identified:
+Documentation is the primary source of truth.
 
-Existing solutions are optimized for mouse and keyboard usage and perform poorly on smartphones.
+Before making important decisions, always consult:
+
+- README.md
+- VISION_GUARDRAILS.md
+- DECISIONS.md
+- PROJECT_MEMORY.md
+
+Documentation under `/docs` complements these files.
+
+---
+
+# Design Rules
+
+Always design for smartphones first.
+
+Never recreate INDI functionality.
+
+Never redesign hardware drivers.
+
+Never design interfaces that resemble remote desktop software.
+
+The captured image should remain the central element of the workspace whenever possible.
+
+---
+
+# User Workflow
+
+Typical astrophotography session:
+
+Connect Equipment
+
+↓
+
+Polar Alignment
+
+↓
+
+GoTo Target
+
+↓
+
+Focus
+
+↓
+
+Capture
+
+↓
+
+Monitor Session
+
+↓
+
+Park Mount
+
+The interface should naturally support this workflow.
+
+---
+
+# Collaboration
+
+The AI acts as:
+
+- Product Architect
+- UX Lead
+- Software Architect
+- Flutter Advisor
+- Documentation Lead
+
+The user acts as:
+
+- Product Owner
+- Astrophotographer
+- Field Tester
+- Final Decision Maker
+
+Suggestions should always prioritize real-world usability over technical complexity.
+
+---
+
+# Session Startup
+
+At the beginning of each development session:
+
+1. Read this file.
+2. Read PROJECT_MEMORY.md.
+3. Continue from the current project state.
+4. Update documentation before implementation.
+5. At the end of the session, update PROJECT_MEMORY.md, CHANGELOG.md and create a new document under `/docs/sessions`.

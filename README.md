@@ -16,7 +16,7 @@ The goal is simple:
 
 Current astrophotography solutions are extremely powerful, but most of them were originally designed for desktop computers.
 
-When accessed from a smartphone through VNC or remote desktop applications, the experience becomes slow, crowded and difficult to use during field operation.
+When accessed from smartphones through VNC or remote desktop applications, the experience becomes slow, crowded and difficult to use during field operation.
 
 Pioneer aims to solve this problem by creating a native mobile workspace that communicates with the existing INDI ecosystem.
 
@@ -60,9 +60,7 @@ Only the user experience is reinvented.
 
 # Architecture
 
-The project is divided into independent layers.
-
-```text
+```
 Flutter / PWA
         │
         ▼
@@ -91,34 +89,13 @@ Current Phase
 
 Current Focus
 
-> Home Workspace Design
-
----
-
-# Repository Structure
-
-```
-frontend/
-backend/
-docs/
-assets/
-tools/
-```
+> Designing the Home Workspace
 
 ---
 
 # Documentation
 
 Project documentation is located under the `/docs` directory.
-
-Topics include:
-
-- Product Vision
-- UX Principles
-- Architecture
-- Design System
-- Wireframes
-- Roadmap
 
 ---
 
@@ -132,4 +109,4 @@ Contributions will be welcome once the first public milestone is available.
 
 # License
 
-License to be defined.
+MIT License
